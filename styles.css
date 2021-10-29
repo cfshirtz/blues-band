@@ -1,0 +1,320 @@
+/* Submitted by Cruz F. Shirtz
+   Assignment 4
+   New CSS selectors used: 
+        .navImage
+        @Media   */
+
+@charset "utf-8";
+
+html {
+    opacity: 100%;
+    background-image: url("AmplifierSpeaker.png");
+    background-size:cover;
+    width:100%;
+    z-index:-1;
+}
+
+body {
+    /*background-image: url("FenderAmp.png");*/
+    background-repeat: repeat;
+    background-size: auto;
+    position:absolute;
+    background-size:cover;
+    border-radius: 5px;
+    /background-color:black;
+    /opacity: 99%;
+    /background-image: url("AmplifierSpeaker.png");
+    /background-size:1800px;
+    /filter:contrast(-50%);
+    z-index: 1;
+    /box-shadow: 3px 2px 2px;
+    
+
+}
+
+h1 {
+    position:relative;
+    display: block;
+    background-image: linear-gradient(red, orange);
+    font-family: "prohibition", sans-serif;
+    font-weight: 400;   
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 2px 1px 2px 2px black;
+    text-shadow:1px 1px darkgray;
+    font-size:35px;
+    opacity: 99%;
+    border-radius: 5px;
+    border-width: 50%;
+    margin-right: 200px;
+    margin-left:200px;
+}
+
+h2 {
+    position:relative;
+    display: block;
+    background-image: linear-gradient(red, orange);
+    font-family: "prohibition", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 2px 1px 2px 2px black;
+    text-shadow:1px 1px darkgray;
+    font-size:35px;
+    opacity: 99%;
+    border-radius: 5px; 
+    margin-right: 200px;
+    margin-left:200px;
+}
+
+
+
+p {
+    position:relative;
+    display: block;
+    background-color:black;
+    font-family: "Menlo", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-shadow: 2px 2px 2px 2px black;
+    letter-spacing: 1px;
+    box-shadow: black;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 2px 1px 2px 2px black;
+    font-size:20px;
+    opacity: 95%;
+    border-radius: 8px;
+    color:beige;
+    border: black;
+    /*background-image: url("AmplifierSpeaker.png");
+    background-size:1000px;
+    background-position: center;
+    opacity: 95%;*/
+    
+
+}
+.quote p {
+    font-family: "futura", sans-serif;
+    text-align: center;
+    font-size: 32px;
+    font-weight:bold;
+    letter-spacing: 2px;
+    opacity: 90%;
+    border-radius: 8px;
+    border-width:50%;
+    /*box-shadow:3px 3px 10px .9px white;*/
+    color: gold;
+    text-shadow: 5px 5px 6px black;
+    padding: 20px 15px 20px 15px;
+    margin-top:10px;
+    margin-right: 50px;
+    margin-left:50px;
+    margin-bottom:10px;
+    background-image: url("20400253472_c8da31ed34_k.jpg");
+    background-size: cover;
+    background-position: center;
+    text-transform:uppercase;
+   
+}
+
+.quote p:hover {
+    font-family: "futura", sans-serif;
+    text-align: center;
+    font-size: 32px;
+    font-weight:bold;
+    letter-spacing: 2px;
+    opacity: 100%;
+    border-radius: 8px;
+    border-width:50%;
+    /*box-shadow:3px 3px 10px .9px white;*/
+    color: gold;
+    text-shadow: 3px 4px 1px black;
+    padding: 20px 15px 20px 15px;
+    margin-top:10px;
+    margin-right: 50px;
+    margin-left:50px;
+    margin-bottom:10px;
+    background-image: url("20400253472_c8da31ed34_k.jpg");
+    background-size: cover;
+    background-position: center;
+    text-transform:uppercase;
+   
+}
+
+
+nav {
+	text-align: center;
+	font-size: 14px;
+    background-color:none;
+    border-radius: 5px;
+    font-family: "prohibition", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    /box-shadow: 1px 1px 1px 1px black;
+    font-size:16px;
+    opacity:100%;
+    margin: 10px 40px 10px 40px;
+    /*background-image: url("FenderAmp.png");
+    background-size:cover;
+    background-position:right 25%;*/
+    /border-style: none;
+    border-radius: 8px;
+
+    
+}
+
+nav ul li {
+    background-color:beige;
+    font-family: "prohibition", sans-serif;   
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 2px 1px 1px 1px black;
+    font-size:18px;
+	border-color: #999;
+	border-style: solid;
+	border-width: 1px;
+	list-style-type: none;
+	display: inline-block;
+	width: 85px;
+	padding: 4px 4px 4px 4px;
+	margin: 2px 2px 2px 2px;
+	text-align: center;
+	background: linear-gradient(red, yellow);
+	text-transform: uppercase;
+    margin: 3px 15px 3px 15px;
+    filter: none;
+
+}
+
+nav ul li a:link {
+	color: #63481D;
+	text-decoration: none;
+    font-family: "prohibition", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 3px 3px 3px 3px;
+    filter: none;
+}
+
+nav ul li a:hover {
+	color: red;
+    font-family: "prohibition", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 3px 3px 3px 3px;
+    filter: none;
+}
+
+.navImage {
+    background-color: linear-gradient(white, black);
+    border-style: none;
+    border-radius: 8px;
+    position: relative; 
+    box-shadow: 1px 2px 2px;
+    background-image: url("bwNav.png");
+    background-size:160%;
+    background-position: left 30%;
+}
+
+article {
+	border: thin solid black;
+    padding: 5px 5px 5px 5px;
+    margin: 3px 3px 3px 3px;
+    border-width: 50%;
+    background-color: black;
+    /box-shadow: 2px 1px 2px
+    opacity: 95%;
+    border-radius: 5px;
+    font-family: "prohibition", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /background-image: url("AmplifierSpeaker.png");
+    background-size:1800px;
+    
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 10px;
+  margin-bottom:1px;
+  border-radius: 5px;
+  filter: grayscale(100%);
+  z-index:1;
+    
+    
+    
+}
+
+img:hover {
+    width: 300px;
+    height: 200px;
+    opacity: 100%;
+    display: block;
+    position: relative;
+    /*margin-left: auto;
+    margin-right:auto;*/
+    transition: transform 1s ease-in-out;
+    transform: rotate(360deg);
+    border-color: white;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 5px;
+    border-width:50%;
+    box-shadow:2px 1px 10px .9px black;
+    filter: none;
+    z-index:2;
+
+
+}
+
+footer {
+    position:center;
+    display: block;
+    background-image: linear-gradient(orange, red);
+    font-family: "Georgia", serif;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 2px 1px 2px 2px black;
+    font-size:14px;
+    opacity: 95%;
+    border-radius: 5px;
+    border-width:50%;
+    margin-right: 350px;
+    margin-left:350px;
+    
+@media only screen and (min-width: 641px) {
+
+
+   body > header nav ul {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+   }
+   
+   body > header nav ul li {
+      flex: 0 1 auto;
+   }
+    
+    @media (max-width: 800px) {
+    
+}
+
+@media only screen and (max-width: 600px) {
+    
+}
+
+}
